@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de inputs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+    <h1>Exemplo de inputs</h1>
+    <!--para criar um formulario usamos a tag forms-->
+    <form>
+        <label>Texto: </label>
+        <input type="text" placeholder="Nome completo: "> <!--tipo de ngc que vc quer que ele seja ou aceite // o placeholder é mensagem que aparece dentro-->
+ 
+        <!--Parte da senha-->
+        <label> Senha:</label>
+        <input  type="password" placeholder="Senha">
+ 
+        <!--Parte do  email eu acho-->
+        <label>Email: </label>
+        <input type="email" placeholder="Email@email.com">
+ 
+        <!--Parte de numero -->
+        <laben>Número: </laben>
+        <input type="number" placeholder="Numenro" min="1" max="500">
+ 
+        <!--Telefone-->
+        <laben>Telefone: </laben>
+        <input type="tel" placeholder="(99)99999-999999">
+ 
+        <!--Parte da URL-->
+        <laben>URL: </laben>
+        <input type="url" placeholder="https://exemple.com">
+ 
+        <!--Data-->
+        <laben><Data></Data>: </laben>
+        <input type="date" placeholder="dd/mm/aaaa">
+        
+        <!--Data e Hora-->
+        <laben>Data e Hora: </laben>
+        <input type="datetime" placeholder="Data e Hora">
+ 
+        <!--COR-->
+        <laben>Cor: </laben>
+        <input type="color">
+ 
+        <!--CheckBox-->
+        <laben>CheckBox: </laben>
+        <input type="checkbox"> Aceito os termos de uso
+ 
+        <!---->
+        <laben>radio: </laben>
+        <input type="radio" nome="genero" value="M"> Masculino
+        <input type="radio" nome="genero" value="F"> Feminino
+
+
+        <!--Mensagem-->
+        <label>Mensagem</label>
+        <textarea placeholder="Digite sua mensagem aqui...."></textarea>
+
+
+        <label>Escolha sua Cidade:</label>
+        <select>
+            <option value="">Selecione</option>
+            <option value="opcao1">Piracicaba</option>
+            <option value="opcao2">Campinas</option>
+            <option value="opcao3">São Paulo</option>
+        </select>
+
+        <label>Faixa de valores</label>
+        <input type="range" min="0" max="100" value="50">
+        
+        <label>Enviar arquivo</label>
+        <input type="file">
+
+    
+        <div class="buttons">
+
+         <input type="submit" volue="Enviar" />
+         <input type="reset" volue="Enviar" />
+
+        </div>
+
+    
+    </form>
+ 
+</body>
+</html>
